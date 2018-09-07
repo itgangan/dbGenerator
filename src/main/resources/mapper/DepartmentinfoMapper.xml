@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itgangan.mapper.DepartmentinfoMapper">
+  <resultMap id="BaseResultMap" type="com.itgangan.entity.Departmentinfo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="Code" jdbcType="VARCHAR" property="code" />
+    <result column="Name" jdbcType="VARCHAR" property="name" />
+    <result column="Type" jdbcType="INTEGER" property="type" />
+    <result column="Pre" jdbcType="VARCHAR" property="pre" />
+    <result column="Security" jdbcType="INTEGER" property="security" />
+    <result column="DelStatus" jdbcType="BIT" property="delstatus" />
+    <result column="CreateTime" jdbcType="DATE" property="createtime" />
+    <result column="UpdateTime" jdbcType="DATE" property="updatetime" />
+  </resultMap>
+</mapper>
